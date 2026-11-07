@@ -1,6 +1,6 @@
 # SHN-MEDIAPIPE
 ![Project Cover](assets/cover.jpeg)
-🍳 GestureChef – Touchless Cooking Experience
+🍳 GestureChef – Touchless Cooking Experience.
 
 ### 💡 What's the idea?
 GestureChef is a touchless cooking assistant that allows users to navigate recipe instructions using simple hand gestures. It uses a webcam and MediaPipe Hands to recognize gestures, making cooking easier and more convenient without touching your device.
@@ -33,4 +33,4 @@ GestureChef is a touchless cooking assistant that allows users to navigate recip
 - 📋 Step-by-Step Instructions: Follow recipes easily.
 - 📷 Real-Time Hand Tracking: Detect hand movements using MediaPipe Hands.
 
-**Built with curiosity at Saturday Hack Night 💜**# 🚀 [Your Project Name]
+**Built with curiosity at Saturday Hack Night 💜**# 🚀 [🍳 GestureChef – Touchless Cooking Experience]
