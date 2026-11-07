@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #10121b;
+    color: #f4f5fb;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    border-bottom: 1px solid #292c3a;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    color: #aeb3c7;
+}
+
+#status {
+    margin-top: 15px;
+    color: #00cec9;
+    font-weight: bold;
+}
+
+main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 260px;
+    gap: 25px;
+    padding: 30px 5%;
+}
+
+.recipe-area {
+    min-width: 0;
+}
+
+.recipe-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.recipe-header h2 {
+    margin: 10px 0;
+}
+
+.recipe-header p {
+    color: #aeb3c7;
+}
+
+.tag {
+    color: #00cec9;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.recipe-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #aeb3c7;
+}
+
+.recipe-card {
+    background: #1a1d29;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #292c3a;
+}
+
+.step-number {
+    color: #00cec9;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.recipe-card h2 {
+    margin: 15px 0;
+    font-size: 28px;
+}
+
+#stepDescription {
+    color: #c4c8d8;
+    font-size: 16px;
+    line-height: 1.6;
+    min-height: 50px;
+}
+
+.step-emoji {
+    font-size: 90px;
+    margin: 20px 0;
+}
+
+.progress-container {
+    background: #292d40;
+    height: 8px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+#progressBar {
+    width: 20%;
+    height: 100%;
+    background: #00cec9;
+    transition: width 0.3s;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.camera-area {
+    margin-top: 25px;
+    background: #1a1d29;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.camera-area h3 {
+    margin-top: 0;
+}
+
+.camera-container {
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+    aspect-ratio: 4 / 3;
+    margin: auto;
+    background: #080a10;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.camera-container canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#video {
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    position: absolute;
+}
+
+#hint {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #292d40;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    color: #fff;
+}
+
+.camera-note {
+    text-align: center;
+    color: #aeb3c7;
+    font-size: 13px;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+button {
+    padding: 11px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #292d40;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #454b68;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#start {
+    background: #6c5ce7;
+}
+
+#next {
+    background: #00a896;
+}
+
+aside {
+    background: #1a1d29;
+    padding: 20px;
+    border-radius: 15px;
+    height: fit-content;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+.gesture {
+    display: flex;
+    gap: 12px;
+    margin: 22px 0;
+}
+
+.gesture span {
+    font-size: 25px;
+}
+
+.gesture p {
+    color: #aeb3c7;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.tip {
+    padding: 15px;
+    background: #292d40;
+    border-radius: 10px;
+    color: #00cec9;
+}
+
+.tip p {
+    color: #c4c8d8;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+}
+
+@media (max-width: 850px) {
+    main {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .recipe-card h2 {
+        font-size: 23px;
+    }
+
+    .step-emoji {
+        font-size: 70px;
+    }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GestureChef - Touchless Recipe Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>👨‍🍳 GestureChef</h1>
+    <p>Cook smarter. Navigate recipes without touching your screen.</p>
+    <div id="status">Camera is off</div>
+</header>
+
+<main>
+    <section class="recipe-area">
+
+        <div class="recipe-header">
+            <div>
+                <span class="tag">AGRICULTURE & FOOD</span>
+                <h2>🍅 Vegetable Pasta</h2>
+                <p>Simple, delicious and easy to prepare</p>
+            </div>
+            <div class="recipe-info">
+                <span>⏱ 20 minutes</span>
+                <span>🍽 2 servings</span>
+            </div>
+        </div>
+
+        <div class="recipe-card">
+            <div class="step-number" id="stepNumber">STEP 1 / 5</div>
+
+            <h2 id="stepTitle">Prepare the ingredients</h2>
+
+            <p id="stepDescription">
+                Wash the vegetables and prepare your ingredients.
+            </p>
+
+            <div class="step-emoji" id="stepEmoji">🥕</div>
+
+            <div class="progress-container">
+                <div id="progressBar"></div>
+            </div>
+
+            <div class="navigation">
+                <button id="previous">← Previous</button>
+                <button id="next">Next →</button>
+            </div>
+        </div>
+
+        <div class="camera-area">
+            <h3>✋ Hand Gesture Control</h3>
+
+            <div class="camera-container">
+                <video id="video" autoplay playsinline muted></video>
+                <canvas id="overlay" width="640" height="480"></canvas>
+                <div id="hint">Click Start Camera to begin</div>
+            </div>
+
+            <p class="camera-note">
+                Keep your hand visible inside the camera.
+            </p>
+        </div>
+
+        <div class="controls">
+            <button id="start">Start Camera</button>
+            <button id="stop" disabled>Stop Camera</button>
+            <button id="reset">Restart Recipe</button>
+        </div>
+
+    </section>
+
+    <aside>
+        <h2>Gesture Guide</h2>
+
+        <div class="gesture">
+            <span>✋</span>
+            <div>
+                <b>Open Palm</b>
+                <p>Start or resume the recipe.</p>
+            </div>
+        </div>
+
+        <div class="gesture">
+            <span>👉</span>
+            <div>
+                <b>Swipe Right</b>
+                <p>Move to the next step.</p>
+            </div>
+        </div>
+
+        <div class="gesture">
+            <span>👈</span>
+            <div>
+                <b>Swipe Left</b>
+                <p>Move to the previous step.</p>
+            </div>
+        </div>
+
+        <div class="gesture">
+            <span>✊</span>
+            <div>
+                <b>Closed Fist</b>
+                <p>Pause the recipe.</p>
+            </div>
+        </div>
+
+        <div class="gesture">
+            <span>👆</span>
+            <div>
+                <b>Index Finger Up</b>
+                <p>Point to interact with the camera.</p>
+            </div>
+        </div>
+
+        <div class="tip">
+            <b>💡 Tip</b>
+            <p>Move your hand horizontally to change recipe steps.</p>
+        </div>
+    </aside>
+</main>
+
+<footer>
+    Built with MediaPipe Hands, HTML, CSS and JavaScript
+    <p>GestureChef | Touchless Cooking Experience</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
