@@ -24,7 +24,7 @@ GestureChef is a touchless cooking assistant that allows users to navigate recip
 - Built-in or external webcam
 
 ### 📸 Show Us What You Built!
-[Add screenshots, photos, GIFs or demo video links here.]
+https://drive.google.com/drive/folders/1-N9S2i3DtQ5GeT6fRVCmRF82Ywyv6Dt-
 
 ### ✨ Cool Things It Does
 - ✋ Open Palm: Resume cooking instructions.
