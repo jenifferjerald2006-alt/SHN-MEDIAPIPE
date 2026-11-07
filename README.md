@@ -1,61 +1,36 @@
 # SHN-MEDIAPIPE
 ![Project Cover](assets/cover.jpeg)
-#  [Your Project Name]
+🍳 GestureChef – Touchless Cooking Experience
 
 ### 💡 What's the idea?
-[Tell us what you built and what it does. Keep it short!]
+GestureChef is a touchless cooking assistant that allows users to navigate recipe instructions using simple hand gestures. It uses a webcam and MediaPipe Hands to recognize gestures, making cooking easier and more convenient without touching your device.
 
 ### 🌐 Check it out!
-- **Live Website:** [Drop your link here / N/A]
-- **GitHub Repo:** [Drop your repository link here]
+- **Live Website:** http://localhost:8000/
+- **GitHub Repo:** https://github.com/jenifferjerald2006-alt/SHN-MEDIAPIPE.git
 
 ### 🛠️ What did you use?
-[Tech stack, tools, frameworks, libraries, etc.]
+- HTML5
+- CSS3
+- JavaScript
+- MediaPipe Hands
+- Webcam API
 
 ### 👥 The Humans Behind It
-- [Name – GitHub Username]
-- [Name – GitHub Username]
+- Jeniffer Jerald J N – [@jenifferjerald2006-alt](https://github.com/jenifferjerald2006-alt)
 
 ### ⚙️ Hardware Corner
-[What hardware did you use? / N/A]
+- Laptop/Desktop
+- Built-in or external webcam
 
 ### 📸 Show Us What You Built!
 [Add screenshots, photos, GIFs or demo video links here.]
 
 ### ✨ Cool Things It Does
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
-
----
+- ✋ Open Palm: Resume cooking instructions.
+- ✊ Closed Fist: Pause cooking instructions.
+- 👋 Hand Gestures: Navigate through recipe steps.
+- 📋 Step-by-Step Instructions: Follow recipes easily.
+- 📷 Real-Time Hand Tracking: Detect hand movements using MediaPipe Hands.
 
 **Built with curiosity at Saturday Hack Night 💜**# 🚀 [Your Project Name]
-
-### 💡 What's the idea?
-[Tell us what you built and what it does. Keep it short!]
-
-### 🌐 Check it out!
-- **Live Website:** [Drop your link here / N/A]
-- **GitHub Repo:** [Drop your repository link here]
-
-### 🛠️ What did you use?
-[Tech stack, tools, frameworks, libraries, etc.]
-
-### 👥 The Humans Behind It
-- [Name – GitHub Username]
-- [Name – GitHub Username]
-
-### ⚙️ Hardware Corner
-[What hardware did you use? / N/A]
-
-### 📸 Show Us What You Built!
-[Add screenshots, photos, GIFs or demo video links here.]
-
-### ✨ Cool Things It Does
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
-
----
-
-**Built with curiosity at Saturday Hack Night 💜**
