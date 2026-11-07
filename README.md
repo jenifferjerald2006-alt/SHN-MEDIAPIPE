@@ -6,7 +6,7 @@
 GestureChef is a touchless cooking assistant that allows users to navigate recipe instructions using simple hand gestures. It uses a webcam and MediaPipe Hands to recognize gestures, making cooking easier and more convenient without touching your device.
 
 ### 🌐 Check it out!
-- **Live Website:** http://localhost:8000/
+- **Live Website:** https://jenifferjerald2006-alt.github.io/SHN-MEDIAPIPE/
 - **GitHub Repo:** https://github.com/jenifferjerald2006-alt/SHN-MEDIAPIPE.git
 
 ### 🛠️ What did you use?
